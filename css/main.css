@@ -1,10 +1,32 @@
 body {
-  filter: invert(88%);
   background-color: #1f1f1f !important;
 }
 
+body,
 #page img,
 .img-wrapper,
 span[role="img"] {
   filter: invert(88%);
+}
+
+/* keep original status colors */
+.jira-issue-status-lozenge,
+.workflow-designer #workflow-designer1 svg,
+/* Type dropdown */
+#issuetype-form ul.aui-last [role="option"] img,
+/* Lightbox */
+#cp-container-1,
+/* user popup avatar */
+.avatar-image,
+.user-time-icon,
+/* Tempo */
+#tempoIssueViewPanel .sc-cSHVUG.swiuE,
+/* harvest */
+button.hui-button.hui-button-large.hui-button-primary.js-submit,
+/* types dropdown */
+.sc-hMjcWo, .sc-fxgLge,
+/* intro logo */
+.intro-logo
+{
+	filter: invert(100%);
 }
