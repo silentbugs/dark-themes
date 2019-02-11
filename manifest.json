@@ -16,13 +16,42 @@
     {
       "run_at": "document_start",
       "matches": [
-        "https://*.atlassian.net/*"
+        // jira
+        "https://*.atlassian.net/*",
+        // bitbucket
+        "https://*.bitbucket.org/*",
+        "https://bitbucket.org/*",
+        // github
+        "https://*.github.com/*",
+        "https://github.com/*",
+        // stackoverflow
+        "https://*.stackoverflow.com/*",
+        "https://stackoverflow.com/*",
+        "https://*.serverfault.com/*",
+        "https://serverfault.com/*",
+        "https://*.stackexchange.com/*",
+        "https://stackexchange.com/*",
+        // archlinux / wiki
+        "https://*.archlinux.org/*",
+        "https://archlinux.org/*",
+        // wikipedia
+        "https://*.wikipedia.org/*",
+        "https://wikipedia.org/*",
+        // google
+        "https://*.google.com/*",
+        "https://google.com/*"
       ],
       "exclude_matches": [
-        "https://*.atlassian.net/wiki/*"
+        "https://*.atlassian.net/wiki/*",
+        // google maps
+        "https://google.com/maps/*",
+        "https://maps.google.com/*",
+        "https://*.google.com/maps/*",
+        // google photos
+        "https://photos.google.com/*"
       ],
       "css": [
-        "css/main.css"
+        "dist/main.css"
       ]
     }
   ]

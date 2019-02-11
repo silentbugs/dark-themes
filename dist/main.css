@@ -1,0 +1,142 @@
+body #archnavbar {
+  background: transparent !important;
+}
+body #archnavbar ~ #content a,
+body #archnavbar ~ #content li:not(.new) a:not(.new),
+body #archnavbar ~ #mw-panel li:not(.new) a:not(.new),
+body #archnavbar ~ #mw-navigation li:not(.new) a:not(.new),
+body #archnavbar ~ * a,
+body #archnavbar ~ .pun a {
+  color: #e08652 !important;
+}
+body #archnavbar ~ * #news h3 a {
+  background: #e08652 !important;
+  color: black !important;
+}
+body #archnavbar ~ * h3 .arrow {
+  border-top-color: #e08652 !important;
+}
+.mediawiki #archnavbar {
+  background: transparent !important;
+}
+#pkgsearch {
+  background: #e08652 !important;
+}
+#pkgsearch,
+#pkgsearch input {
+  border-color: #e90 !important;
+}
+#archnavbarlist a {
+  color: #0077bb !important;
+}
+.js-header-wrapper header {
+  background-color: white !important;
+}
+.header-search {
+  background-color: gainsboro !important;
+}
+.js-header-wrapper svg,
+.js-header-wrapper header a,
+.js-header-wrapper header span,
+.header-search a {
+  color: black !important;
+}
+div[itemtype="http://schema.org/SoftwareSourceCode"] a {
+  color: #e08652;
+}
+.repository-content .commit-tease {
+  background-color: #f6f8fa;
+  border-color: #e08652;
+}
+.repository-content .commit-tease-contributors {
+  border-color: #e08652;
+}
+.repository-content .commit-tease-contributors .btn-link {
+  color: #e08652;
+}
+.repository-content .btn-primary {
+  background-color: #ba459f;
+  background-image: linear-gradient(-180deg, #bd5ea6, #c476b1);
+}
+.repository-content .btn-primary:focus {
+  box-shadow: 0 0 0 0.2em #bc4da2;
+}
+.repository-content .btn-primary.hover,
+.repository-content .btn-primary:hover,
+.repository-content .btn-primary.selected,
+.repository-content .btn-primary:active,
+.repository-content [open] > .btn-primary {
+  background-color: #be4ca4;
+  background-image: linear-gradient(-180deg, #bd48a2, #c368ae 90%);
+}
+.repository-content .g-emoji.g-emoji {
+  filter: invert(100%);
+}
+.application-main a,
+.application-main span {
+  color: #e08652;
+}
+body #res a {
+  color: #4e2100 !important;
+}
+.a,
+cite,
+cite a:link,
+cite a:visited,
+.cite,
+.cite:link,
+#nygTcd > i,
+.bc a:link {
+  color: #ef5fc0 !important;
+}
+.RY3tic {
+  filter: invert(100%);
+}
+body.EIlDfe,
+body.EIlDfe * {
+  filter: inherit !important;
+}
+.jira-issue-status-lozenge,
+.workflow-designer #workflow-designer1 svg,
+#issuetype-form ul.aui-last [role="option"] img,
+#cp-container-1,
+.avatar-image,
+.user-time-icon,
+#tempoIssueViewPanel .sc-cSHVUG.swiuE,
+button.hui-button.hui-button-large.hui-button-primary.js-submit,
+.sc-hMjcWo,
+.sc-fxgLge,
+.intro-logo {
+  filter: invert(100%);
+}
+body.unified-theme .question-hyperlink,
+body.unified-theme .answer-hyperlink,
+body.unified-theme a {
+  color: #e08652 !important;
+}
+body.mediawiki li:not(.new) a:not(.new),
+body.mediawiki label,
+body.mediawiki a {
+  color: #e08652 !important;
+}
+body.mediawiki table th {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+body.mediawiki svg {
+  filter: invert(100%);
+}
+html {
+  background: transparent !important;
+}
+body {
+  background-color: #1f1f1f !important;
+}
+body,
+#page img,
+body img,
+.img-wrapper,
+span[role="img"],
+#archnavbar {
+  filter: invert(88%);
+}
