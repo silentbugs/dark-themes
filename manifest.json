@@ -1,8 +1,8 @@
 {
  	"manifest_version": 2,
- 	"name": "Jira Dark Theme",
+ 	"name": "Dark Themes",
  	"version": "1.0",
-	"description": "Switch to dark version of Jira",
+	"description": "Switch to dark version of several websites",
 	"icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
