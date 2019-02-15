@@ -14,4 +14,16 @@ body.mediawiki {
 	svg {
 		filter: invert(100%);
 	}
+
+	table.wikitable {
+		td {
+			&[style*="background: #ffdddd"], &[style*="background:#ffdddd"] {
+				background: #bfd !important;
+			}
+
+			&[style*="background: #bfd"], &[style*="background:#bfd"] {
+				background: #ffdddd !important;
+			}
+		}
+	}
 }

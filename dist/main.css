@@ -78,20 +78,20 @@ div[itemtype="http://schema.org/SoftwareSourceCode"] a {
 .application-main span {
   color: #e08652;
 }
-body #res a {
+body#gsr #res a {
   color: #4e2100 !important;
 }
-.a,
-cite,
-cite a:link,
-cite a:visited,
-.cite,
-.cite:link,
-#nygTcd > i,
-.bc a:link {
+#gsr .a,
+#gsr cite,
+#gsr cite a:link,
+#gsr cite a:visited,
+#gsr .cite,
+#gsr .cite:link,
+#gsr #nygTcd > i,
+#gsr .bc a:link {
   color: #ef5fc0 !important;
 }
-.RY3tic {
+#gsr .RY3tic {
   filter: invert(100%);
 }
 body.EIlDfe,
@@ -116,6 +116,11 @@ body.unified-theme .answer-hyperlink,
 body.unified-theme a {
   color: #e08652 !important;
 }
+body.unified-theme .js-accepted-answer-indicator svg,
+body.unified-theme .answer-votes,
+body.unified-theme .favicon {
+  filter: invert(100%);
+}
 body.mediawiki li:not(.new) a:not(.new),
 body.mediawiki label,
 body.mediawiki a {
@@ -127,6 +132,14 @@ body.mediawiki table th {
 }
 body.mediawiki svg {
   filter: invert(100%);
+}
+body.mediawiki table.wikitable td[style*="background: #ffdddd"],
+body.mediawiki table.wikitable td[style*="background:#ffdddd"] {
+  background: #bfd !important;
+}
+body.mediawiki table.wikitable td[style*="background: #bfd"],
+body.mediawiki table.wikitable td[style*="background:#bfd"] {
+  background: #ffdddd !important;
 }
 #facebook a[aria-label="photo"],
 #facebook a[aria-label="Open photo"],
@@ -151,7 +164,8 @@ body.mediawiki svg {
   background: #e08652;
 }
 #facebook i.img,
-#facebook ._3xn1 {
+#facebook ._3xn1,
+#facebook span[title="Delivered"] {
   filter: invert(100%);
 }
 #facebook img._mxz.img {
