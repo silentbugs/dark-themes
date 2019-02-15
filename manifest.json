@@ -39,7 +39,9 @@
         "https://wikipedia.org/*",
         // google
         "https://*.google.com/*",
-        "https://google.com/*"
+        "https://google.com/*",
+        "https://*.facebook.com/*",
+        "https://facebook.com/*"
       ],
       "exclude_matches": [
         "https://*.atlassian.net/wiki/*",

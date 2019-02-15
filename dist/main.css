@@ -29,20 +29,22 @@ body #archnavbar ~ * h3 .arrow {
 #archnavbarlist a {
   color: #0077bb !important;
 }
+div[itemtype="http://schema.org/SoftwareSourceCode"] a {
+  color: #e08652;
+}
 .js-header-wrapper header {
   background-color: white !important;
+}
+.js-header-wrapper svg,
+.js-header-wrapper header a,
+.js-header-wrapper header span {
+  color: black !important;
 }
 .header-search {
   background-color: gainsboro !important;
 }
-.js-header-wrapper svg,
-.js-header-wrapper header a,
-.js-header-wrapper header span,
 .header-search a {
   color: black !important;
-}
-div[itemtype="http://schema.org/SoftwareSourceCode"] a {
-  color: #e08652;
 }
 .repository-content .commit-tease {
   background-color: #f6f8fa;
@@ -125,6 +127,35 @@ body.mediawiki table th {
 }
 body.mediawiki svg {
   filter: invert(100%);
+}
+#facebook a[aria-label="photo"],
+#facebook a[aria-label="Open photo"],
+#facebook ._2poz._52mr._ui9._2n8h._2n8i._5fk1 {
+  filter: invert(100%);
+}
+#facebook #u_0_j {
+  filter: invert(88%);
+}
+#facebook body {
+  filter: none !important;
+}
+#facebook body [id='fbRTC/scrollBox'] {
+  filter: invert(88%);
+}
+#facebook ._n8._3qx.uiLayer._3qw a[aria-label="photo"],
+#facebook ._n8._3qx.uiLayer._3qw img {
+  filter: none !important;
+}
+#facebook [aria-label="Messages"] ._3058._ui9._hh7._6ybn._s1-._52mr._43by._3oh- {
+  color: black;
+  background: #e08652;
+}
+#facebook i.img,
+#facebook ._3xn1 {
+  filter: invert(100%);
+}
+#facebook img._mxz.img {
+  filter: none;
 }
 html {
   background: transparent !important;
