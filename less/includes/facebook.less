@@ -1,17 +1,10 @@
 #facebook {
-	a[aria-label="photo"],
-	a[aria-label="Open photo"],
-	._2poz._52mr._ui9._2n8h._2n8i._5fk1 {
-		filter: invert(100%);
-	}
-
-	#u_0_j {
+	#u_0_j,
+	 {
 		filter: invert(88%);
 	}
 
 	body {
-		filter: none !important;
-
 		[id='fbRTC/scrollBox'] {
 			filter: invert(88%);
 		}
@@ -19,10 +12,16 @@
 
 	// lightbox
 	._n8._3qx.uiLayer._3qw {
+		filter: invert(100%) !important;
+
 		a[aria-label="photo"],
 		img {
 			filter: none !important;
 		}
+	}
+
+	div._42rl {
+		filter: none !important;
 	}
 
 	[aria-label="Messages"] {
@@ -36,11 +35,31 @@
 	._3xn1,
 	._1n9l,
 	._iuw,
-	span[title="Delivered"]{
+	span[title="Delivered"],
+	svg,
+	[style*="background:"],
+	[style*="background-image:"],
+	._30yy,
+	._2a45._fy2,
+	[aria-label="Messages"] [data-testid="animated_image"] {
 		filter: invert(100%);
 	}
 
 	img._mxz.img {
 		filter: none;
+	}
+
+	._chh {
+		background: white !important;
+	}
+
+	._4uwq.endCall {
+		background: @cyan;
+	}
+
+	[id*="u_fetchstream"] {
+		video {
+			filter: invert(100%);
+		}
 	}
 }

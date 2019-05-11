@@ -141,22 +141,20 @@ body.mediawiki table.wikitable td[style*="background: #bfd"],
 body.mediawiki table.wikitable td[style*="background:#bfd"] {
   background: #ffdddd !important;
 }
-#facebook a[aria-label="photo"],
-#facebook a[aria-label="Open photo"],
-#facebook ._2poz._52mr._ui9._2n8h._2n8i._5fk1 {
-  filter: invert(100%);
-}
 #facebook #u_0_j {
   filter: invert(88%);
-}
-#facebook body {
-  filter: none !important;
 }
 #facebook body [id='fbRTC/scrollBox'] {
   filter: invert(88%);
 }
+#facebook ._n8._3qx.uiLayer._3qw {
+  filter: invert(100%) !important;
+}
 #facebook ._n8._3qx.uiLayer._3qw a[aria-label="photo"],
 #facebook ._n8._3qx.uiLayer._3qw img {
+  filter: none !important;
+}
+#facebook div._42rl {
   filter: none !important;
 }
 #facebook [aria-label="Messages"] ._3058._ui9._hh7._6ybn._s1-._52mr._43by._3oh- {
@@ -167,11 +165,26 @@ body.mediawiki table.wikitable td[style*="background:#bfd"] {
 #facebook ._3xn1,
 #facebook ._1n9l,
 #facebook ._iuw,
-#facebook span[title="Delivered"] {
+#facebook span[title="Delivered"],
+#facebook svg,
+#facebook [style*="background:"],
+#facebook [style*="background-image:"],
+#facebook ._30yy,
+#facebook ._2a45._fy2,
+#facebook [aria-label="Messages"] [data-testid="animated_image"] {
   filter: invert(100%);
 }
 #facebook img._mxz.img {
   filter: none;
+}
+#facebook ._chh {
+  background: white !important;
+}
+#facebook ._4uwq.endCall {
+  background: #2ab2c4;
+}
+#facebook [id*="u_fetchstream"] video {
+  filter: invert(100%);
 }
 html {
   background: transparent !important;
